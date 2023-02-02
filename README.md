@@ -92,7 +92,17 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Next, Open your Chrome or Internet browser in your remote desktop and type "Wireshark 64 bite" and install it.
 - Open "Wireshark" and filter on the top bar ICMP traffic only.
 - Go back to your orginal computer and go to your VMO2 copy or remember the private IP address.
-- Go back to your VMO1 remote desktop and attempt to ping it. Example: "ping 10.0.0.5" 
+- Go back to your VMO1 remote desktop and open your command line attempt to ping it. Example: "ping 10.0.0.5" 
+  - Observe ping requests and replies within Wireshark.
+- Now open your Powershell and attempt to ping a public website. Example:"ping www.google.com -4) 
+  - Observe the traffic in Wireshark.
+- Now we going to initiate a perpetual/non-stop ping from VM01 to VM02 
+- First, go back to your orignal computer and open Network Security Group by going to your VM02 and click on "Networking" and click on " Add inbound port rule".
+- Second, Select "Any" on source > Select "Any" on destination > Select "Custom" on service > Select "ICMP" on protcol > Select "Deny" on action > Type "210" on priority > on name type "Deny_ICMP_Ping_From_Anywhere" > Now click "Add".
+ - Now go back to your VM01 remote desktop and observe the ICMP traffic in Wireshark and the commmand line ping activity.
+- Go back to your orginal computer and re-eable ICMP traffic in your VM02 Network Security Group by click "Allow" and refresh it.
+- 
+
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
