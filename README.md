@@ -36,11 +36,14 @@ When virtual machines are created, they are given an IP address. As they boot up
 <img src="https://i.imgur.com/2ny0xyg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p
  
- - First, you going to create your Resource Group, If you don't know how to click [here](https://github.com/haleypruittcc/ResourcegroupandHelloworld) before you continue with this section.
-- Next, type "Virtual Machine" on top in the search and click  
-     - You must enter your credit card information, but in exchange, you will receive $200 in Azure credits that you have 30 days to utilize. Up until then, no charges will be applied.
-- Finish prompt, click on  Go to Azure Portal and you are all done and ready to start with Azure!
-     - You may also go to [portal.azure.com](https://www.portal.azure.com) to start
+ - First, you going to create your Resource Group. If you don't know how to click [here](https://github.com/haleypruittcc/ResourcegroupandHelloworld) before you continue with this section. 
+- Next, type "Virtual Machine" on top in the search and click on "Create"
+- Choose your existing "Resource Group", then choose the name of chose for your Virtual Mahcine.
+- Then choose your region in your area, next your going select "Windows 10 Pro" on Image.
+- Next, your going to create your username and password by chose.
+- Finally, Click on " Review and Create" and 
+   
+     
  
 
 <br />
