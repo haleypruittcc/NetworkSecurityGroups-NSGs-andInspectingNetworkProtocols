@@ -82,9 +82,53 @@ When virtual machines are created, they are given an IP address. As they boot up
    <h3>Step 3: Observe the ICMP Traffic </h3>  
     
     <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BfcH3SL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ 
+
+<img src="https://i.imgur.com/0sLSQo7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+ 
+<img src="https://i.imgur.com/mvFeK8n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+<img src="https://i.imgur.com/zHRggSD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ <img src="https://i.imgur.com/ocb8ORy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ <img src="https://i.imgur.com/dcH6F6j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ 
+ <img src="https://i.imgur.com/bbDWVVB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+ <img src="https://i.imgur.com/xBRWaJa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ 
+ <img src="https://i.imgur.com/3Vqnzk8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ <img src="https://i.imgur.com/vHWZ1ri.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ 
+ 
+
  
 - First, go to your VM01 and copy the pubic IP address. 
 - Open your "Remote Desktop" on your computer and paste your public IP address and click "Connect".
@@ -107,11 +151,11 @@ When virtual machines are created, they are given an IP address. As they boot up
  
  
  <h3>Step 4: Observe the SSH Traffic </h3> 
-  
-   <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ <img src="https://i.imgur.com/vQpE5Hy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  
  
 - First, go to the Wireshark in VM01 and refresh and filter "SSH" traffic only.
 - Second, go to your Powershell and type ssh your username @ VM02 private IP address and press enter. 
@@ -127,7 +171,7 @@ When virtual machines are created, they are given an IP address. As they boot up
  <h3>Step 5: Observe the DHCP Traffic </h3> 
  
  <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/UhmwCJg.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
@@ -135,10 +179,10 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Next, attempt to issue your VM a new IP address from the command line , type (ipconfig/renew)
   - Obsereve the DHCP traffic appearing in Wireshark.
    
-   <h3>Step 2: Observe the DNS Traffic </h3>
+   <h3>Step 6: Observe the DNS Traffic </h3>
   
    <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4ZxpDFs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -146,11 +190,11 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Second, go to the commmand line and type "nslookup www.google.com" or "nslookup www.disney.com" to see what are their IP adresses are.
   - Obserev the DNS traffic being show in Wireshark.
    
-  <h3>Step 6: Observe the RDP Traffic </h3> 
+  <h3>Step 7: Observe the RDP Traffic </h3> 
   
    
    <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HoQjS1n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
    
