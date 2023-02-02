@@ -79,7 +79,7 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Finally, after the resources move to the subscription go back to the Network Watcher Topology and observe the connections traffic .
 
    
-   <h3>Step 2: Observe the ICMP Traffic </h3>  
+   <h3>Step 3: Observe the ICMP Traffic </h3>  
     
     <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -106,7 +106,7 @@ When virtual machines are created, they are given an IP address. As they boot up
 - To stop ping activity press control key + c .
  
  
- <h3>Step 2: Observe the SSH Traffic </h3> 
+ <h3>Step 4: Observe the SSH Traffic </h3> 
   
    <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -124,7 +124,7 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Finally, exit the SSH connection by typing "exit" and press enter.
  
  
- <h3>Step 2: Observe the DHCP Traffic </h3> 
+ <h3>Step 5: Observe the DHCP Traffic </h3> 
  
  <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -146,7 +146,7 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Second, go to the commmand line and type "nslookup www.google.com" or "nslookup www.disney.com" to see what are their IP adresses are.
   - Obserev the DNS traffic being show in Wireshark.
    
-  <h3>Step 2: Observe the RDP Traffic </h3> 
+  <h3>Step 6: Observe the RDP Traffic </h3> 
   
    
    <p>
@@ -159,5 +159,7 @@ When virtual machines are created, they are given an IP address. As they boot up
    - Observe the immadiate non-stop spam of traffic, because the RDP (protocol) is constantly showing you a live stream from one computer to another , therefore traffic is always being transmitted.
     
     
-  🎉Finally! You are done experiences performing activites on the Newtwork!🎉 
+  🎉Finally! You are done experiences performing activites on the Newtwork!🎉
+    
+   Make sure after you done delete your Resource Groups. If you don't know how to click [here](https://github.com/haleypruittcc/ResourcegroupandHelloworld)
 
