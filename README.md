@@ -36,7 +36,8 @@ When virtual machines are created, they are given an IP address. As they boot up
 <img src="https://i.imgur.com/2ny0xyg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p
  
- - First, you going to create your Resource Group. If you don't know how to click [here](https://github.com/haleypruittcc/ResourcegroupandHelloworld) before you continue with this section. 
+ - First, you going to create your Resource Group. 
+   - If you don't know how to click [here](https://github.com/haleypruittcc/ResourcegroupandHelloworld) before you continue with this section. 
 - Second, type " Virtual Mahcine" on the top of the search bar and click on "Create".
 - Choose you're existing "Resource Group", then choose the name of chose for your Virtual Mahcine.
 - Then choose your region in your area, next you're going select "Windows 10 Pro" on Image.
@@ -70,18 +71,28 @@ When virtual machines are created, they are given an IP address. As they boot up
 </p>
 <p>
   
-  
+- First, type "Network Watcher" on the search bar on top and click on "Topology" and observe the Virtual Machines connected.
+  - Note: If the error said " No Network watcher present in this subscription" on the topology then follow this instrictions.
+- Click on " Overview" and click on three dots on the "NetworkWatcher_eastus".
+- Next, click on "Move" besides the Resource Group.
+- Then, select the resource group you created on the last step and click on "Next", after its checking the resources to make sure it can move then click "Move".
+- Finally, after the resources move to the subscription go back to the Network Watcher Topology and observe the connections traffic .
 
    
-     
- 
-
-<br />
-
-<p>
+   <h3>Step 2: Observe the ICMP Traffic </h3>  
+    
+    <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ 
+- First, go to your VM01 and copy the pubic IP address. 
+- Open your "Remote Desktop" on your computer and paste your public IP address and click "Connect".
+- Then, type in  the sames username and password you create earlier in the last step on your VM01.
+- Next, 
+ 
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
