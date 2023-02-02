@@ -44,15 +44,31 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Next, you're going to create your username and password by chose.
 - Finally, Click on " Review and Create" and click on " Create". 
 - Now you're going to do the repeat the same step but change your "Image" to "Ubuntu Server 20.04 LTS" on your second Virtaul Machine.
+   
+ 🎉Congratulations! You have created your first Virtual Mahcine within Azure!🎉
+  
+  <h3>Step 2: Observe the Vitual Machine within Network Watcher </h3>
  
  <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p2hGMNq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- 
- 
- 
- 🎉Congratulations! You have created your first Virtual Mahcine within Azure!🎉
+  <p>
+<img src="https://i.imgur.com/zxyZ85H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/zDf6xWM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/cFwAmYO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ <p>
+<img src="https://i.imgur.com/5IvOV8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
   
   
 
