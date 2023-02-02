@@ -93,26 +93,71 @@ When virtual machines are created, they are given an IP address. As they boot up
 - Open "Wireshark" and filter on the top bar ICMP traffic only.
 - Go back to your orginal computer and go to your VMO2 copy or remember the private IP address.
 - Go back to your VMO1 remote desktop and open your command line attempt to ping it. Example: "ping 10.0.0.5" 
-  - Observe ping requests and replies within Wireshark.
+   - Observe ping requests and replies within Wireshark.
 - Now open your Powershell and attempt to ping a public website. Example:"ping www.google.com -4) 
-  - Observe the traffic in Wireshark.
+- Next ping your VM02  private IP address for the non-stop traffic. Example " ping 10.0.0.5 -t"
+  - Observe the traffic in Wireshark .
 - Now we going to initiate a perpetual/non-stop ping from VM01 to VM02 
 - First, go back to your orignal computer and open Network Security Group by going to your VM02 and click on "Networking" and click on " Add inbound port rule".
 - Second, Select "Any" on source > Select "Any" on destination > Select "Custom" on service > Select "ICMP" on protcol > Select "Deny" on action > Type "210" on priority > on name type "Deny_ICMP_Ping_From_Anywhere" > Now click "Add".
  - Now go back to your VM01 remote desktop and observe the ICMP traffic in Wireshark and the commmand line ping activity.
 - Go back to your orginal computer and re-eable ICMP traffic in your VM02 Network Security Group by click "Allow" and refresh it.
-- 
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
+- Go back to your VM01 and observe the ICMP traffic in Wireshark and the commmand ling ping activity
+- To stop ping activity press control key + c .
+ 
+ 
+ <h3>Step 2: Observe the SSH Traffic </h3> 
+  
+   <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
+- First, go to the Wireshark in VM01 and refresh and filter "SSH" traffic only.
+- Second, go to your Powershell and type ssh your username @ VM02 private IP address and press enter. 
+  - For Example:"ssh hpruittcc@10.0.0.5"
+- When the question pop up on the command to be continue connecting , type "yes" and press eneter.
+- Next, it going to ask for the your password, the password is the same one your created in your VM02, enter your password and press enter.
+  - Note: When you enter your password it won't show up so please enter your password correctly.
+- Now you're are in VM02. Type command (ls,pwd,etc) into the linux (VM02) SSH connection 
+  - Observe SSH traffic spam in Wireshark.
+- Finally, exit the SSH connection by typing "exit" and press enter.
+ 
+ 
+ <h3>Step 2: Observe the DHCP Traffic </h3> 
+ 
+ <p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+<p>
+ 
+- First, go back in Wireshark and refresh , filter "DHCP" traffic only.
+- Next, attempt to issue your VM a new IP address from the command line , type (ipconfig/renew)
+  - Obsereve the DHCP traffic appearing in Wireshark.
+   
+   <h3>Step 2: Observe the DNS Traffic </h3>
+  
+   <p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+- First, go back to Wireshark and refresh, filter for "DNS" traffic only.
+- Second, go to the commmand line and type "nslookup www.google.com" or "nslookup www.disney.com" to see what are their IP adresses are.
+  - Obserev the DNS traffic being show in Wireshark.
+   
+  <h3>Step 2: Observe the RDP Traffic </h3> 
+  
+   
+   <p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+   
+- First, back in Wireshark filter (tcp.port==3389) for RDP traffic only and press enter.
+  - Question:  Before you press enetr , Will this traffic will spam non- stop or go blank or etc? 
+   - Observe the immadiate non-stop spam of traffic, because the RDP (protocol) is constantly showing you a live stream from one computer to another , therefore traffic is always being transmitted.
+    
+    
+  🎉Finally! You are done experiences performing activites on the Newtwork!🎉 
+
