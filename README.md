@@ -37,11 +37,25 @@ When virtual machines are created, they are given an IP address. As they boot up
 </p
  
  - First, you going to create your Resource Group. If you don't know how to click [here](https://github.com/haleypruittcc/ResourcegroupandHelloworld) before you continue with this section. 
-- Next, type "Virtual Machine" on top in the search and click on "Create"
-- Choose your existing "Resource Group", then choose the name of chose for your Virtual Mahcine.
-- Then choose your region in your area, next your going select "Windows 10 Pro" on Image.
-- Next, your going to create your username and password by chose.
-- Finally, Click on " Review and Create" and 
+- Second, type " Virtual Mahcine" on the top of the search bar and click on "Create".
+- Choose you're existing "Resource Group", then choose the name of chose for your Virtual Mahcine.
+- Then choose your region in your area, next you're going select "Windows 10 Pro" on Image.
+- Next, select what size of your performance on you're remote desktop windows. Note: Make sure you look at your prices before you select so you won't use all your free credits up.
+- Next, you're going to create your username and password by chose.
+- Finally, Click on " Review and Create" and click on " Create". 
+- Now you're going to do the repeat the same step but change your "Image" to "Ubuntu Server 20.04 LTS" on your second Virtaul Machine.
+ 
+ <p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ 
+ 
+ 🎉Congratulations! You have created your first Virtual Mahcine within Azure!🎉
+  
+  
+
    
      
  
