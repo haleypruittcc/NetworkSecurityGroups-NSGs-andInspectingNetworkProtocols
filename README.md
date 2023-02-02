@@ -89,8 +89,10 @@ When virtual machines are created, they are given an IP address. As they boot up
 - First, go to your VM01 and copy the pubic IP address. 
 - Open your "Remote Desktop" on your computer and paste your public IP address and click "Connect".
 - Then, type in  the sames username and password you create earlier in the last step on your VM01.
-- Next, 
- 
+- Next, Open your Chrome or Internet browser in your remote desktop and type "Wireshark 64 bite" and install it.
+- Open "Wireshark" and filter on the top bar ICMP traffic only.
+- Go back to your orginal computer and go to your VMO2 copy or remember the private IP address.
+- Go back to your VMO1 remote desktop and attempt to ping it. Example: "ping 10.0.0.5" 
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
