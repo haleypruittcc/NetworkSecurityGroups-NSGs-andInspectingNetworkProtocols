@@ -81,48 +81,53 @@ When virtual machines are created, they are given an IP address. As they boot up
    
    <h3>Step 3: Observe the ICMP Traffic </h3>  
     
-    <p>
+   
+<img src="https://i.imgur.com/8Gmj1GX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+   
+   
 <img src="https://i.imgur.com/BfcH3SL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
 
-<img src="https://i.imgur.com/0sLSQo7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1YN1q53.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
  
-<img src="https://i.imgur.com/mvFeK8n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5vrsY2E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
-<img src="https://i.imgur.com/zHRggSD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lUOXPZ7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
- <img src="https://i.imgur.com/ocb8ORy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/EcajOBl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
- <img src="https://i.imgur.com/dcH6F6j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/wc2SDZS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
  
- <img src="https://i.imgur.com/bbDWVVB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/aYWJtjf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
- <img src="https://i.imgur.com/xBRWaJa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/nCEX3ap.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
  
- <img src="https://i.imgur.com/3Vqnzk8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/E3DFTc6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
- <img src="https://i.imgur.com/vHWZ1ri.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/qHIQhdX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
@@ -152,7 +157,7 @@ When virtual machines are created, they are given an IP address. As they boot up
  
  <h3>Step 4: Observe the SSH Traffic </h3> 
  
- <img src="https://i.imgur.com/vQpE5Hy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/JfVk8ch.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
@@ -171,7 +176,7 @@ When virtual machines are created, they are given an IP address. As they boot up
  <h3>Step 5: Observe the DHCP Traffic </h3> 
  
  <p>
-<img src=https://i.imgur.com/UhmwCJg.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JfVk8ch.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
@@ -182,7 +187,8 @@ When virtual machines are created, they are given an IP address. As they boot up
    <h3>Step 6: Observe the DNS Traffic </h3>
   
    <p>
-<img src="https://i.imgur.com/4ZxpDFs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r6qk5J5.png
+" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -194,7 +200,7 @@ When virtual machines are created, they are given an IP address. As they boot up
   
    
    <p>
-<img src="https://i.imgur.com/HoQjS1n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iB4r5i2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
    
