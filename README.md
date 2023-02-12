@@ -27,13 +27,13 @@ When virtual machines are created, they are given an IP address. As they boot up
 <h3>Step 1: Create a Virtual Machine </h3>
 
 <p>
-<img src="https://i.imgur.com/MJOpWkB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dUQ7758.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/h8BZEzi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kY2II2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/2ny0xyg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/S4xSu8g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p
  
  - First, you going to create your Resource Group. 
@@ -51,23 +51,23 @@ When virtual machines are created, they are given an IP address. As they boot up
   <h3>Step 2: Observe the Vitual Machine within Network Watcher </h3>
  
  <p>
-<img src="https://i.imgur.com/p2hGMNq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VnWx9JU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   <p>
-<img src="https://i.imgur.com/zxyZ85H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r7zi1RS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  <p>
-<img src="https://i.imgur.com/zDf6xWM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Le7DBDC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  <p>
-<img src="https://i.imgur.com/cFwAmYO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dNlxcoG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  <p>
-<img src="https://i.imgur.com/5IvOV8U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6L3TIYR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
