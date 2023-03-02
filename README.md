@@ -85,12 +85,7 @@ When virtual machines are created, they are given an IP address. As they boot up
 <img src="https://i.imgur.com/8Gmj1GX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-   
-   
-<img src="https://i.imgur.com/BfcH3SL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
- 
+
 
 <img src="https://i.imgur.com/1YN1q53.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
